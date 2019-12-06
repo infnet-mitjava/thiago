@@ -1,11 +1,11 @@
-# AvaliaÁ„o de disciplina Mensageria (Prof Veloso)
+# Avalia√ß√£o de disciplina Mensageria (Prof Veloso)
 
 Para construir o banco, configure o ***persistence.xml*** do projeto ***lojavirtual-ejb*** da seguinte forma:
 
 ```xml
 <properties>
    <!-- Properties for Hibernate -->
-   <property name="hibernate.hbm2ddl.auto" value="update" />
+   <property name="hibernate.hbm2ddl.auto" value="create" />
    <property name="hibernate.show_sql" value="true" />
 </properties>
 ```
@@ -34,4 +34,4 @@ O sistema efetua um cadastro de compras seguindo os requisitos solicitados:
 > 3. As paginas web devem ser feitas utiilzando Web Servlets
 > 4. O processamento e criacao de pedidos deve ser feito com a tecnologia Enterprise Java Beans
 > 5. O pagamento deve ser feito utilizando Java Message Service
-> 6. Um Message Driven Bean deve atualizar a base apÛs o processamento bem-sucedido do pagamento
+> 6. Um Message Driven Bean deve atualizar a base ap√≥s o processamento bem-sucedido do pagamento
